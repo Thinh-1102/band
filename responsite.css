@@ -1,0 +1,72 @@
+/* mobile */
+@media only screen and (max-width:739px){  
+    
+    #header{
+        overflow: hidden;
+    }
+    
+    #nav,
+    #nav > li,
+    #nav > li > a {
+        display: block;
+    }
+    #nav > li:first-child{
+        display:inline-block ;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    
+    .subnav li{
+        line-height: 41.5px;
+    }
+
+    #nav .subnav a{
+        padding-left: 27px;
+    }
+    
+    .ti-search{
+        display: none;
+    }
+    
+    .ti-menu{
+        display: block;
+    }
+    
+    #slider .text-content p{
+        font-size: 70%;
+    }
+}
+@media only screen and (min-width:740px){
+    .ti-menu{
+        display: none;
+    }
+    .section .member-items{
+        float: left;
+        width: 33.33333%;
+    }
+    .section .ticket-place{
+        float: left;
+        width: 33.333333%;
+    }
+    .contact-infor{
+        width: 50%;
+        float: left;
+    }
+    
+    .contact .contact-table{
+        display: inline-block;
+        width: 50%;
+    }
+}
+/* table */
+
+@media only screen and (min-width:740px) and (max-width:1239px){
+
+}
+/* mobile + table */
+/* @media only screen and (max-width:1239px){
+
+} */
